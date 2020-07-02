@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Msg	pthread.c	/^struct Msg{$/;"	s	file:
+age	pthread.c	/^    int age;$/;"	m	struct:Msg	file:
+main	client.c	/^int main(int argc, char **argv) {$/;"	f
+main	pthread.c	/^int main() {$/;"	f
+main	server.c	/^int main(int argc, char **argv) {$/;"	f
+name	pthread.c	/^    char name[20];$/;"	m	struct:Msg	file:
+print	pthread.c	/^void *print(void *arg) {$/;"	f
+retval	pthread.c	/^int retval = 3;$/;"	v

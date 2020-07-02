@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	1.football/common/color.h	12;"	d
+BLUE	1.football/common/color.h	20;"	d
+Bdir	game/game.h	/^struct Point Bdir, Odir;  \/\/ Direction of movement$/;"	v	typeref:struct:Point
+Bpoint	game/game.h	/^struct Point Bpoint;      \/\/ Board Position$/;"	v	typeref:struct:Point
+Ctrl	1.football/common/datatype.h	/^struct Ctrl {$/;"	s
+DBG	1.football/common/common.h	18;"	d
+DBG	1.football/common/common.h	20;"	d
+FT_ACK	1.football/common/datatype.h	55;"	d
+FT_FIN	1.football/common/datatype.h	56;"	d
+FT_MSG	1.football/common/datatype.h	54;"	d
+FT_TEST	1.football/common/datatype.h	52;"	d
+FT_WALL	1.football/common/datatype.h	53;"	d
+FootBallMsg	1.football/common/datatype.h	/^struct FootBallMsg {$/;"	s
+Football	1.football/game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+GREEN	1.football/common/color.h	16;"	d
+HEAD_H	1.football/common/head.h	9;"	d
+Help	1.football/game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+LEFIEDGE	game/2.c	5;"	d	file:
+L_BLACK	1.football/common/color.h	13;"	d
+L_BLUE	1.football/common/color.h	21;"	d
+L_GREEN	1.football/common/color.h	17;"	d
+L_PINK	1.football/common/color.h	22;"	d
+L_RED	1.football/common/color.h	15;"	d
+L_YELLOW	1.football/common/color.h	19;"	d
+LogRequest	1.football/common/datatype.h	/^struct LogRequest{$/;"	s
+LogResponse	1.football/common/datatype.h	/^struct LogResponse{$/;"	s
+MAX	1.football/common/heart_beat.c	5;"	d	file:
+MAX	1.football/common/server_exit.c	3;"	d	file:
+MAX	1.football/common/sub_reactor.c	3;"	d	file:
+MAX	1.football/common/udp_epoll.c	13;"	d	file:
+MAX	1.football/game.h	5;"	d
+MAXMSG	1.football/common/datatype.h	3;"	d
+MAXTASK	1.football/common/thread_pool.h	4;"	d
+MAXTHREAD	1.football/common/thread_pool.h	5;"	d
+MAX_CLIENT	1.football/common/chatroom.h	44;"	d
+Map	1.football/common/datatype.h	/^struct Map {$/;"	s
+Message	1.football/game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+Msg	1.football/common/chatroom.h	/^struct Msg {$/;"	s
+NONE	1.football/common/color.h	11;"	d
+Odir	game/game.h	/^struct Point Bdir, Odir;  \/\/ Direction of movement$/;"	v	typeref:struct:
+Opoint	game/game.h	/^struct Point Opoint;      \/\/ Ball position$/;"	v	typeref:struct:Point
+PINK	1.football/common/color.h	23;"	d
+Point	1.football/common/datatype.h	/^struct Point{$/;"	s
+Point	game/game.h	/^struct Point {$/;"	s
+Q	game/play_again1.c	2;"	d	file:
+Q	game/play_again2.c	3;"	d	file:
+Q	game/play_again3.c	9;"	d	file:
+RED	1.football/common/color.h	14;"	d
+RIGHTEDGE	game/2.c	6;"	d	file:
+RecvMsg	1.football/common/chatroom.h	/^struct RecvMsg {$/;"	s
+Score	1.football/game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+TIMEOUT	game/play_again3.c	10;"	d	file:
+TransMsg	1.football/common/datatype.h	/^struct TransMsg{$/;"	s
+User	1.football/common/datatype.h	/^struct User{$/;"	s
+Write	1.football/game.h	/^WINDOW *Football, *Message, *Help, *Score, *Write;$/;"	v
+X	game/game.h	12;"	d
+Y	game/game.h	13;"	d
+YELLOW	1.football/common/color.h	18;"	d
+_CHATROOM_H	1.football/common/chatroom.h	9;"	d
+_CLIENT_RECVER_H	1.football/common/client_recver.h	2;"	d
+_COLOR_H	1.football/common/color.h	9;"	d
+_COMMON_H	1.football/common/common.h	9;"	d
+_DATATYPE_H	1.football/common/datatype.h	2;"	d
+_GAME_H	1.football/game.h	2;"	d
+_GAME_H	game/game.h	2;"	d
+_GLOBAL_H	1.football/common/global.h	2;"	d
+_HEART_BEAT_H	1.football/common/heart_beat.h	2;"	d
+_SERVER_EXIT_H	1.football/common/server_exit.h	2;"	d
+_SUB_REACTOR_H	1.football/common/sub_reactor.h	2;"	d
+_TCP_CLIENT_H	1.football/common/tcp_client.h	9;"	d
+_TCP_SERVER_H	1.football/common/tcp_server.h	9;"	d
+_TCP_SERVER_H	1.football/common/udp_client.h	2;"	d
+_TCP_SERVER_H	1.football/common/udp_server.h	9;"	d
+_THREAD_POOL_H	1.football/common/thread_pool.h	2;"	d
+_UDP_EPOLL_H	1.football/common/udp_epoll.h	2;"	d
+add_event	1.football/common/udp_epoll.c	/^void add_event(int epollfd, int fd, int events) {$/;"	f
+add_event_ptr	1.football/common/udp_epoll.c	/^void add_event_ptr(int epollfd, int fd, int events, struct User *user) {$/;"	f
+add_to_sub_reactor	1.football/common/udp_epoll.c	/^void add_to_sub_reactor(struct User *user) {$/;"	f
+bepollfd	1.football/server/server.c	/^int repollfd, bepollfd;$/;"	v
+bteam	1.football/server/server.c	/^struct User *bteam;$/;"	v	typeref:struct:User
+carry	1.football/common/datatype.h	/^    int carry;$/;"	m	struct:Ctrl
+chat_recv	1.football/common/chatroom.h	/^struct RecvMsg chat_recv(int fd) {$/;"	f
+chat_send	1.football/common/chatroom.h	/^int chat_send(struct Msg msg, int fd) {$/;"	f
+check_online	1.football/common/udp_epoll.c	/^int check_online(struct LogRequest *request) {$/;"	f
+client_recv	1.football/common/client_recver.c	/^void client_recv(void *arg) {$/;"	f
+cond	1.football/common/thread_pool.h	/^    pthread_cond_t cond; \/\/互斥条件$/;"	m	struct:task_queue
+conf	1.football/client/client.c	/^char *conf = ".\/football.conf";$/;"	v
+conf	1.football/server/server.c	/^char *conf = ".\/server.conf"; \/\/弄成全局的$/;"	v
+conf_ans	1.football/common/global.c	/^char conf_ans[50];$/;"	v
+court	1.football/game.h	/^struct Map court;$/;"	v	typeref:struct:Map
+create_newwin	1.football/game.h	/^WINDOW *create_newwin(int width, int heigth, int startx, int starty) {$/;"	f
+ctrl	1.football/common/datatype.h	/^    struct Ctrl ctrl;$/;"	m	struct:TransMsg	typeref:struct:TransMsg::Ctrl
+cx	game/game.h	/^int cx = (X - 2) \/ 2 + 1;  \/\/ X Center$/;"	v
+cy	game/game.h	/^int cy = (Y - 2) \/ 2 + 1;  \/\/ Y Center$/;"	v
+del_event	1.football/common/udp_epoll.c	/^void del_event(int epollfd, int fd) {$/;"	f
+destroy_win	1.football/game.h	/^void destroy_win(WINDOW * win) {$/;"	f
+dir_r	game/game.h	/^int dir_r[3] = {-1, 0, 1};  \/\/ Directions for random movement$/;"	v
+dirx	1.football/common/datatype.h	/^    int dirx;$/;"	m	struct:TransMsg
+diry	1.football/common/datatype.h	/^    int diry;$/;"	m	struct:TransMsg
+do_echo	1.football/common/thread_pool.c	/^void do_echo(struct User *user) {$/;"	f
+draw	1.football/game.h	/^void *draw(void *arg) {$/;"	f
+draw_game	game/game.h	/^void draw_game() {$/;"	f
+epollfd	1.football/common/thread_pool.h	/^    int epollfd;$/;"	m	struct:task_queue
+fd	1.football/common/datatype.h	/^    int fd;$/;"	m	struct:User
+find_sub	1.football/common/udp_epoll.c	/^int find_sub(struct User *team) {$/;"	f
+flag	1.football/common/chatroom.h	/^    int flag;$/;"	m	struct:Msg
+flag	1.football/common/datatype.h	/^    int flag; \/\/未效应次数,判断是否在线$/;"	m	struct:User
+flag	game/game.h	/^int flag = 0;  \/\/ Ball is moving$/;"	v
+from	1.football/common/chatroom.h	/^    char from[20];$/;"	m	struct:Msg
+gate_heigth	1.football/common/datatype.h	/^    int gate_heigth;$/;"	m	struct:Map
+gate_width	1.football/common/datatype.h	/^    int gate_width;$/;"	m	struct:Map
+get_ok_char	game/play_again3.c	/^int get_ok_char() {\/\/暂时没有$/;"	f
+get_random	game/game.h	/^uint32_t get_random(uint32_t max) {$/;"	f
+get_response	game/play_again2.c	/^int get_response() {$/;"	f
+get_response	game/play_again3.c	/^int get_response() {$/;"	f
+get_value	1.football/common/common.c	/^char *get_value(char *path, char *key) {$/;"	f
+getresponse	game/play_again1.c	/^int getresponse() {$/;"	f
+gotoxy	1.football/game.h	/^void gotoxy(int x, int y) {$/;"	f
+gotoxy	game/game.h	/^void gotoxy(int x, int y) { move(y, x); }$/;"	f
+gotoxy_putc	1.football/game.h	/^void gotoxy_putc(int x, int y, int c) {$/;"	f
+gotoxy_putc	game/game.h	/^void gotoxy_putc(int x, int y, char c) {$/;"	f
+gotoxy_puts	1.football/game.h	/^void gotoxy_puts(int x, int y, char* s) {$/;"	f
+gotoxy_puts	game/game.h	/^void gotoxy_puts(int x, int y, const char *c) {$/;"	f
+head	1.football/common/thread_pool.h	/^    int head;$/;"	m	struct:task_queue
+heart_beat	1.football/common/heart_beat.c	/^void *heart_beat(void *arg) {$/;"	f
+heart_beat_team	1.football/common/heart_beat.c	/^void heart_beat_team(struct User *team) {$/;"	f
+heigth	1.football/common/datatype.h	/^    int heigth; \/\/Row$/;"	m	struct:Map
+init_field	game/game.h	/^void init_field(int x, int y) {$/;"	f
+init_game	game/game.h	/^void init_game() {$/;"	f
+initfootball	1.football/game.h	/^void initfootball() {$/;"	f
+kick	1.football/common/datatype.h	/^    int kick;$/;"	m	struct:Ctrl
+loc	1.football/common/datatype.h	/^    struct Point loc;$/;"	m	struct:User	typeref:struct:User::Point
+logout	1.football/client/client.c	/^void logout(int signum) {$/;"	f
+main	1.football/client/client.c	/^int main(int argc, char **argv) {$/;"	f
+main	1.football/common/test.c	/^int main() {$/;"	f
+main	1.football/server/server.c	/^int main(int argc, char **argv) {$/;"	f
+main	1.football/udp/client.c	/^int main(int argc, char **argv) {$/;"	f
+main	1.football/udp/server.c	/^int main(int argc, char **argv) {$/;"	f
+main	game/1.c	/^int main() {$/;"	f
+main	game/2.c	/^int main() {$/;"	f
+main	game/game.c	/^int main() {$/;"	f
+main	game/itimer.c	/^int main() {$/;"	f
+main	game/play_again1.c	/^int main() {$/;"	f
+main	game/play_again2.c	/^int main() {$/;"	f
+main	game/play_again3.c	/^int main() {$/;"	f
+main	game/sleep.c	/^int main() {$/;"	f
+make_block	1.football/common/common.c	/^void make_block(int fd) {$/;"	f
+make_block_ioctl	1.football/common/common.c	/^void make_block_ioctl(int fd) {$/;"	f
+make_nonblock	1.football/common/common.c	/^void make_nonblock(int fd) {$/;"	f
+make_nonblock_ioctl	1.football/common/common.c	/^void make_nonblock_ioctl(int fd){$/;"	f
+message	1.football/common/chatroom.h	/^    char message[512];$/;"	m	struct:Msg
+msg	1.football/common/chatroom.h	/^    struct Msg msg;$/;"	m	struct:RecvMsg	typeref:struct:RecvMsg::Msg
+msg	1.football/common/datatype.h	/^    char msg[512];$/;"	m	struct:LogRequest
+msg	1.football/common/datatype.h	/^    char msg[512];$/;"	m	struct:LogResponse
+msg	1.football/common/datatype.h	/^    char msg[MAXMSG];$/;"	m	struct:FootBallMsg
+mutex	1.football/common/thread_pool.h	/^    pthread_mutex_t mutex;\/\/互斥量$/;"	m	struct:task_queue
+name	1.football/common/datatype.h	/^    char name[20]; \/\/Nmae of user$/;"	m	struct:LogRequest
+name	1.football/common/datatype.h	/^    char name[20];$/;"	m	struct:User
+online	1.football/common/datatype.h	/^    int online;$/;"	m	struct:User
+port	1.football/server/server.c	/^int port = 0;$/;"	v
+print	game/itimer.c	/^void print() {$/;"	f
+print	game/sleep.c	/^void print() {$/;"	f
+repollfd	1.football/server/server.c	/^int repollfd, bepollfd;$/;"	v
+retval	1.football/common/chatroom.h	/^    int retval;$/;"	m	struct:RecvMsg
+rteam	1.football/server/server.c	/^struct User *rteam;$/;"	v	typeref:struct:User
+score	game/game.h	/^int score = 0;$/;"	v
+server_exit	1.football/common/server_exit.c	/^void server_exit(int signum) {$/;"	f
+server_ip	1.football/client/client.c	/^char server_ip[20] = {0};$/;"	v
+server_port	1.football/client/client.c	/^int server_port = 0;$/;"	v
+set_cr_mode	game/play_again2.c	/^void set_cr_mode() {$/;"	f
+set_cr_noecho_mode	game/play_again3.c	/^void set_cr_noecho_mode() {$/;"	f
+set_nonblock_node	game/play_again3.c	/^void set_nonblock_node() {$/;"	f
+size	1.football/common/datatype.h	/^    int size;$/;"	m	struct:FootBallMsg
+socket_connect	1.football/common/tcp_client.c	/^int socket_connect(char *host, int port) {$/;"	f
+socket_connect_timeout	1.football/common/tcp_client.c	/^int socket_connect_timeout(char *host, int port, long timeout) {$/;"	f
+socket_create	1.football/common/tcp_server.c	/^int socket_create(int port) {$/;"	f
+socket_create_udp	1.football/common/udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_udp	1.football/common/udp_client.c	/^int socket_udp() {$/;"	f
+sockfd	1.football/client/client.c	/^int sockfd;$/;"	v
+start	1.football/common/datatype.h	/^    struct Point start; \/\/已知起点，长，宽，便可以绘制一个矩形$/;"	m	struct:Map	typeref:struct:Map::Point
+sub_reactor	1.football/common/sub_reactor.c	/^void *sub_reactor(void *arg) {$/;"	f
+sum	1.football/common/thread_pool.h	/^    int sum;$/;"	m	struct:task_queue
+tail	1.football/common/thread_pool.h	/^    int tail;$/;"	m	struct:task_queue
+task_queue	1.football/common/thread_pool.h	/^struct task_queue{$/;"	s
+task_queue_init	1.football/common/thread_pool.c	/^void task_queue_init(struct task_queue *taskQueue, int sum, int epollfd) {$/;"	f
+task_queue_pop	1.football/common/thread_pool.c	/^struct User *task_queue_pop(struct task_queue *taskQueue) {$/;"	f
+task_queue_push	1.football/common/thread_pool.c	/^void task_queue_push(struct task_queue *taskQueue, struct User *user) {$/;"	f
+team	1.football/common/datatype.h	/^    int team; \/\/0 READ 1 BLUE$/;"	m	struct:LogRequest
+team	1.football/common/datatype.h	/^    int team;$/;"	m	struct:User
+team	1.football/common/thread_pool.h	/^    struct User **team;$/;"	m	struct:task_queue	typeref:struct:task_queue::User
+thread_run	1.football/common/thread_pool.c	/^void *thread_run(void *arg) {$/;"	f
+tty_mode	game/play_again2.c	/^void tty_mode (int how) { \/\/how = 1;还原， how = 0获取$/;"	f
+tty_mode	game/play_again3.c	/^void tty_mode (int how) {$/;"	f
+type	1.football/common/datatype.h	/^    int type; \/\/0 success 1 failed$/;"	m	struct:LogResponse
+type	1.football/common/datatype.h	/^    int type;$/;"	m	struct:FootBallMsg
+udp_accept	1.football/common/udp_epoll.c	/^int udp_accept(int epollfd, int fd, struct User *user) {$/;"	f
+udp_connect	1.football/common/udp_epoll.c	/^int udp_connect(int epollfd, struct sockaddr_in * serveraddr) {$/;"	f
+w_gotoxy_putc	1.football/game.h	/^void w_gotoxy_putc(WINDOW *win, int x, int y, int c){$/;"	f
+w_gotoxy_puts	1.football/game.h	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f
+width	1.football/common/datatype.h	/^    int width; \/\/Column$/;"	m	struct:Map
+x	1.football/common/datatype.h	/^    int x;$/;"	m	struct:Point
+x	game/game.h	/^    int x, y;$/;"	m	struct:Point
+y	1.football/common/datatype.h	/^    int y;$/;"	m	struct:Point
+y	game/game.h	/^    int x, y;$/;"	m	struct:Point
