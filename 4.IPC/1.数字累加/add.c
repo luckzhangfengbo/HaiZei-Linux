@@ -1,17 +1,19 @@
+/*************************************************************************
+	> File Name: add.c
+	> Author: zhangfb
+	> Mail: 1819067326
+	> Created Time: 五  1/ 8 15:27:23 2021
+ ************************************************************************/
 
-
-
-
-
-
-
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <fcntl.h>
 #include <sys/file.h>
+#include <fcntl.h>
+
+
 
 char num_file[] = "./.num";//隐藏文件
 char lock_file[] = "./.lock";
@@ -89,7 +91,7 @@ int main(int argc, char **argv){
             break;//每个子进程不再去循环创建子进程
         }
     }
-    
+
     if (pid == 0) {
         do_add(max, x);
         printf("<%d> exit!\n", x);
