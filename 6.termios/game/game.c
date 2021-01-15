@@ -34,7 +34,7 @@ int main() {
                 Bdir.x -= 2;
             } break;
             case KEY_RIGHT: {
-                Bdir.x +=  2;
+                Bdir.x += 2;
             } break;
             case KEY_UP: {
                 if (flag) break;
